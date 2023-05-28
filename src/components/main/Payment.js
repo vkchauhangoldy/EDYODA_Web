@@ -67,7 +67,7 @@ const Payment = () => {
                 <div className={classes.offer}>
                     <div className={classes["bottom-child"]}>
                         <p>Limited time offer</p>
-                        <span><FontAwesomeIcon icon={faIndianRupee} /> -18,401</span>
+                        <h4><FontAwesomeIcon icon={faIndianRupee} /> -18,401</h4>
                     </div>
                     <div className={classes["bottom-child2"]}>
                         <span><FontAwesomeIcon icon={faClock} /> Offer valid till 25th June 2023</span>
