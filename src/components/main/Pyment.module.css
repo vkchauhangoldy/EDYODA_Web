@@ -1,0 +1,136 @@
+.container {
+  height: 60vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.body {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+}
+.top-left,
+.top-right {
+  display: flex;
+  justify-content: space-around;
+}
+.circle {
+  height: 2vh;
+  width: 1vw;
+  border: 1px solid #0babd3;
+  border-radius: 50%;
+  background-color: #0e89ee;
+  text-align: center;
+  padding: 1rem;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #212529;
+}
+.para {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.child {
+  display: flex;
+  gap: 15rem;
+  border: 2px solid #ced4da;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+  align-items: center;
+  letter-spacing: 0.25px;
+}
+
+.child-left {
+  display: flex;
+  gap: 1rem;
+}
+.child-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+span {
+  font-size: 1.2rem;
+}
+.bottom {
+  display: flex;
+  gap: 20rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.25px;
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 2px solid #ffa8a8;
+  background: linear-gradient(to top left, #ffe3e3, #ffc9c9);
+  border-radius: 0.3rem;
+  padding: 0.8rem;
+}
+.expired {
+  color: #868e96;
+  border: 2px solid #ced4da;
+  background: linear-gradient(to top left, #e9ecef, #dee2e6);
+}
+
+.recommended {
+  border: 2px solid #69db7c;
+  background: linear-gradient(to top left, #ebfbee, #d3f9d8);
+}
+.bottom-child {
+  display: flex;
+  gap: 20rem;
+  font-size: 1.4rem;
+  align-items: center;
+}
+.bottom-child2 span {
+  color: #e03131;
+  font-size: 1.1rem;
+  letter-spacing: 0.25px;
+}
+.bottom-child p {
+  color: #e03131;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+}
+.btn {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+button {
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.cancel {
+  border: 1px solid #e03131;
+  color: #fa5252;
+  background-color: white;
+  font-weight: bolder;
+  border-radius: 0.3rem;
+}
+.pay {
+  background-color: #51cf66;
+  border: none;
+  font-weight: bolder;
+  border-radius: 0.3rem;
+  color: whitesmoke;
+}
+.include {
+  font-weight: lighter;
+}
+img {
+  width: 10rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,59 @@
+.container {
+  height: 84vh;
+  background: linear-gradient(to top left, #061624, #020724);
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-left: 5rem;
+  padding: 3rem;
+}
+
+.heading {
+  color: white;
+}
+.heading p {
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+.cut {
+  text-decoration: line-through;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: red;
+}
+.amt {
+  color: white;
+  font-size: 3rem;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  color: white;
+  align-items: center;
+}
+.content p {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.content .icon {
+  font-size: 3rem;
+}
+
+.color {
+  color: #0babd3;
+  font-size: 2rem;
+}
+.color99 {
+  color: #0babd3;
+  font-size: 2rem;
+  font-size: 3rem;
+}
+.right {
+  padding: 11rem 5rem 0 2rem;
+}
